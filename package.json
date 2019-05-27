@@ -1,6 +1,6 @@
 {
     "name": "scr-pipe",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A functional binding library for javascript that allows for easy chaining of functions.",
     "main": "./dist/pipe.js",
     "scripts": {
@@ -13,15 +13,14 @@
         "type": "git",
         "url": "scottyrogers10/scr-pipe"
     },
-    "dependencies": {
-        "@babel/polyfill": "^7.2.5",
-        "babel-runtime": "^6.26.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@babel/core": "^7.2.2",
         "@babel/plugin-proposal-class-properties": "^7.3.3",
+        "@babel/polyfill": "^7.4.4",
         "@babel/preset-env": "^7.3.1",
         "babel-loader": "^8.0.5",
+        "babel-runtime": "^6.26.0",
         "webpack": "^4.29.3",
         "webpack-cli": "^3.3.2"
     }
