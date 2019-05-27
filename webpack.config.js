@@ -4,7 +4,6 @@ module.exports = {
         path: __dirname + "/dist",
         filename: "pipe.js",
         library: "scr-pipe",
-        libraryExport: "default",
         libraryTarget: "umd"
     },
     module: {
