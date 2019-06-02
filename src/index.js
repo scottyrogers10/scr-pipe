@@ -1,4 +1,4 @@
-const Pipe = value => {
+const pipe = value => {
     let bindFn = (val, fn) => fn(val);
 
     const getPipe = val => {
@@ -15,4 +15,4 @@ const Pipe = value => {
     return getPipe(value);
 };
 
-export { Pipe };
+export default pipe;

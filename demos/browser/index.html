@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Pipe - Demo</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/javascript" src="../../dist/pipe.js"></script>
+        <script type="text/javascript">
+            document.getElementById("root").innerHTML = pipe(5)
+                .flow(val => val + 10)
+                .close();
+        </script>
+    </body>
+</html>
