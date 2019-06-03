@@ -1,6 +1,6 @@
 {
     "name": "scr-pipe",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A functional binding library for javascript that allows for easy chaining of functions.",
     "main": "./dist/pipe.js",
     "scripts": {
